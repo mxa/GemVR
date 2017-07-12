@@ -1,0 +1,7 @@
+#N canvas 1017 655 450 300 10;
+#X obj 96 58 inlet;
+#X obj 96 220 outlet;
+#X obj 96 139 * 57.2958;
+#X text 201 140 degrees = rad * (180/pi);
+#X connect 0 0 2 0;
+#X connect 2 0 1 0;
