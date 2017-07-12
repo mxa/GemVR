@@ -1,13 +1,17 @@
-#N canvas 725 452 864 464 10;
-#X obj 185 66 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 7400 1;
-#X obj 182 97 / 127;
+#N canvas 672 349 686 297 10;
+#X obj 258 101 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 8000 1;
+#X obj 255 132 / 127;
 #X msg 26 45 create \, 1;
 #X msg 58 67 0 \, destroy;
 #X obj 26 89 gemwin;
 #X text 380 62 graph data (0-1) in the Gem window;
-#X obj 182 171 polygongraph 1 0 1;
+#X obj 170 46 gemhead;
+#X obj 171 71 colorRGB 1 1 0;
+#X obj 172 161 polygongraph;
 #X connect 0 0 1 0;
-#X connect 1 0 6 0;
+#X connect 1 0 8 1;
 #X connect 2 0 4 0;
 #X connect 3 0 4 0;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;

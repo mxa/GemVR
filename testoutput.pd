@@ -1,4 +1,4 @@
-#N canvas 965 129 918 855 10;
+#N canvas 963 130 918 855 10;
 #X declare -lib zexy;
 #X obj 29 222 gemwin 60;
 #X msg 45 48 0 \, destroy;
@@ -34,7 +34,7 @@
 #X obj 209 98 hsl 128 15 3.5 -30 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X msg 232 538 6;
-#X obj 192 248 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 192 248 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 192 342 translateXYZ -3.3 -2.8 0;
 #N canvas 20 100 438 440 mousemove 0;

@@ -1,4 +1,4 @@
-#N canvas 865 611 508 222 10;
+#N canvas 863 612 508 222 10;
 #X obj 18 17 inlet;
 #X obj 18 59 separator;
 #X obj 181 59 separator;
@@ -14,9 +14,9 @@
 #X obj 339 83 translateXYZ -2 -1.5 -2;
 #X obj 181 82 translateXYZ 1 1.5 -2;
 #X obj 18 83 translateXYZ -2 1.5 -5;
-#X obj 18 154 tubegrid 13;
-#X obj 181 155 tubegrid 13;
-#X obj 339 156 tubegrid 13;
+#X obj 18 154 tubegrid 13 0.016;
+#X obj 181 155 tubegrid 13 0.016;
+#X obj 339 156 tubegrid 13 0.016;
 #X connect 0 0 1 0;
 #X connect 0 0 2 0;
 #X connect 0 0 4 0;

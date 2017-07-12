@@ -1,7 +1,7 @@
-#N canvas 705 177 450 300 10;
+#N canvas 703 178 450 300 10;
 #X declare -lib Gem;
 #X obj 71 36 gemhead;
-#X floatatom 128 176 5 0 0 0 - - -, f 5;
+#X floatatom 155 155 5 0 0 0 - - -, f 5;
 #X obj 71 119 scaleXYZ;
 #X floatatom 101 96 5 0 0 0 - - -, f 5;
 #X floatatom 86 77 5 0 0 0 - - -, f 5;
@@ -10,11 +10,16 @@
 #X msg 265 18 reset \, FSAA 8 \, create \, 1;
 #X obj 264 103 declare -lib Gem;
 #X text 61 261 needs zexy and Gem;
-#X obj 71 197 tubegrid 4;
 #X text 60 240 tubegrid is a grid of tubes;
+#X obj 71 197 tubegrid 4 0.05;
+#X floatatom 183 176 5 0 0 0 - - -, f 5;
+#X text 203 152 no of tubes;
+#X text 234 175 diameter of tubes;
 #X connect 0 0 2 0;
-#X connect 2 0 10 0;
+#X connect 1 0 11 1;
+#X connect 2 0 11 0;
 #X connect 3 0 2 2;
 #X connect 4 0 2 1;
 #X connect 6 0 5 0;
 #X connect 7 0 5 0;
+#X connect 12 0 11 2;
