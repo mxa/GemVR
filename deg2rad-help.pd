@@ -1,0 +1,10 @@
+#N canvas 1221 356 357 376 10;
+#X floatatom 73 130 5 0 0 0 - - -, f 5;
+#X floatatom 73 258 5 0 0 1 Radians - -, f 5;
+#X obj 76 74 hsl 128 15 0 360 0 0 empty empty ° -2 -8 0 10 -262144
+-1 -1 12700 1;
+#X obj 73 200 deg2rad;
+#X text 72 280 (maximum is 2pi);
+#X connect 0 0 3 0;
+#X connect 2 0 0 0;
+#X connect 3 0 1 0;

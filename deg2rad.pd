@@ -1,0 +1,7 @@
+#N canvas 1280 682 450 300 10;
+#X obj 96 58 inlet;
+#X obj 96 220 outlet;
+#X text 197 139 Radians = degrees * (pi/180);
+#X obj 96 139 * 0.0174533;
+#X connect 0 0 3 0;
+#X connect 3 0 1 0;
