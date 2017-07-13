@@ -1,4 +1,4 @@
-#N canvas 963 130 918 855 10;
+#N canvas 961 131 918 855 10;
 #X declare -lib zexy;
 #X obj 29 222 gemwin 60;
 #X msg 45 48 0 \, destroy;
