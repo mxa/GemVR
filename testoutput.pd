@@ -1,4 +1,4 @@
-#N canvas 961 131 918 855 10;
+#N canvas 842 120 918 855 10;
 #X declare -lib zexy;
 #X obj 29 222 gemwin 60;
 #X msg 45 48 0 \, destroy;
@@ -34,7 +34,7 @@
 #X obj 209 98 hsl 128 15 3.5 -30 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X msg 232 538 6;
-#X obj 192 248 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 192 248 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 192 342 translateXYZ -3.3 -2.8 0;
 #N canvas 20 100 438 440 mousemove 0;
@@ -171,6 +171,7 @@
 #X connect 5 0 0 0;
 #X restore 21 325 pd scene_lighting;
 #X msg 724 31 listen 9000;
+#X msg 368 27;
 #X connect 1 0 0 0;
 #X connect 3 0 2 0;
 #X connect 4 0 3 1;
@@ -215,3 +216,4 @@
 #X connect 46 0 0 0;
 #X connect 47 0 0 0;
 #X connect 49 0 43 0;
+#X connect 50 0 0 0;
