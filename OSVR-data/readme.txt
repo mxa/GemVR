@@ -6,3 +6,6 @@ https://www.gnu.org/licenses/lgpl-3.0
 
 It is based upon a minimal example by Christoph Haag
 https://gist.github.com/ChristophHaag/3e1c058a9bfbb350a4c3f9d545b0ca74
+
+For this external to work, the libosvrRenderManager.so must be accessible for loading. The directory needs to be declared when launching Pd like so:
+LD_LIBRARY_PATH=/path/to/dist/lib pd
