@@ -1,0 +1,7 @@
+#N canvas 656 380 450 300 10;
+#X obj 39 65 osvrdata;
+#X obj 153 160 osvrdata /you/head;
+#X msg 32 36 bang;
+#X obj 39 87 print aaa;
+#X connect 0 0 3 0;
+#X connect 2 0 0 0;
